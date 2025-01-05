@@ -1,0 +1,58 @@
+clocking status
+
+open
+close
+time_in
+time_out
+break_in
+break_out
+forgot_to_clock_out
+
+
+
+
+backoffice timesheet system
+
++ New user
+ - Register
+ - employee number
+ - firstname, lastname, middle initial
+ - nick name
+ - email address 
+
+ - tables: user, user_groups, groups
+ - model
+
+ - fields: employee_number, email, password, activated
+ - activated_at
+ - first_name, created_at
+
+ - tables: employees
+ - model
+
+ - fields: employee_number, lastname, firstname, middle_name
+ - nick_name, hire_date
+ - employee_type, manager_id, supervisor_id, company_id,      - position_id, department_id
+ 
+ - tables: employee setting
+
+
++ 
+
+https://developer.wordpress.org/themes/template-files-section/page-template-files/page-templates/
+
+
+
+						$dateTimeFormatIn1 = Session::get('dateTimeFormatIn1');
+						$dateTimeFormatOut1 = Session::get('dateTimeFormatOut1');
+
+2015/09/08
+
+redrawSearchTimesheet
+
+
+showSearchTimesheet to showEditTimesheet
+updateSearchTimesheet to updateSearchTimesheet
+
+
+
